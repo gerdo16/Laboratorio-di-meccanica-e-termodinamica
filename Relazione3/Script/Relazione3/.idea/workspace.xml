@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a70f17c-07ca-4afe-9189-c86072b9b984" name="Changes" comment="" />
+    <list default="true" id="2a70f17c-07ca-4afe-9189-c86072b9b984" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/istogramma.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/istogramma.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/probabilitàsomma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/probabilitàsomma.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -25,22 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Grafico1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grafico1p2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grafico2p2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grafico3p2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grafico4p2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Grafico1.executor": "Run",
+    "Python.Grafico1p2.executor": "Run",
+    "Python.Grafico2p2.executor": "Run",
+    "Python.Grafico3p2.executor": "Run",
+    "Python.Grafico4p2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gerar/OneDrive/Desktop/GitHub/Laboratorio-di-meccanica-e-termodinamica/Relazione3/Script/Relazione3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,6 +82,7 @@
       <workItem from="1731599376567" duration="1310000" />
       <workItem from="1731753558796" duration="19000" />
       <workItem from="1732823410009" duration="121000" />
+      <workItem from="1734793220037" duration="347000" />
     </task>
     <servers />
   </component>
