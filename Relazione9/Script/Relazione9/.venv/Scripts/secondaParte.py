@@ -4,25 +4,18 @@ from scipy import stats
 from matplotlib.backends.backend_pdf import PdfPages
 import statistics
 
-result = []
-counter = 0
+dati = np.loadtxt('tirodado.txt')
 
-for i  in range(4):
-    for j in range(20):
-        result.append(i+1 + j+1)
-        counter += 1
+datiQuattro = dati[:, 0]
+datiVenti = dati[:, 1]
 
+sommaDadi = datiQuattro + datiVenti
 
-#print(result)
-lista = list(set(result))
-print(lista)
-
-
-counts, bin_edges = np.histogram(result, bins=23, density=True)
+counts, bin_edges = np.histogram(sommaDadi, bins=23, density=True)
 
 fig, ax = plt.subplots()
 
-ax.hist(result, density=True, bins=23, color='skyblue', edgecolor='black')
+ax.hist(sommaDadi, density=True, bins=23, color='skyblue', edgecolor='black')
 # Aggiungere etichette e legenda
 ax.set_xlabel('Valori')
 ax.set_ylabel('Frequenza relativa')
@@ -32,21 +25,21 @@ plt.legend()
 plt.show()
 
 # Salvataggio dell'istogramma in un file PDF
-with PdfPages('istogramma1.pdf') as pdf:
+with PdfPages('istogramma2.pdf') as pdf:
     pdf.savefig(fig)  # Salva la figura corrente nel PDF
     plt.close(fig)    # Chiude la figura per liberare memoria
 
 
 
-media = statistics.mean(result)
-mediana = statistics.median(result)
-moda = statistics.mode(result)
+media = statistics.mean(sommaDadi)
+mediana = statistics.median(sommaDadi)
+moda = statistics.mode(sommaDadi)
 
 print(media)
 print(mediana)
 print(moda)
 
-dev_std = np.std(result)
+dev_std = np.std(sommaDadi)
 print(dev_std)
 
 
