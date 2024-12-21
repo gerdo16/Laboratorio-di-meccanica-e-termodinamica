@@ -16,8 +16,7 @@ for i  in range(4):
 #print(result)
 lista = list(set(result))
 print(lista)
-print ("counter")
-print(counter)
+
 
 counts, bin_edges = np.histogram(result, bins=10, density=True)
 
