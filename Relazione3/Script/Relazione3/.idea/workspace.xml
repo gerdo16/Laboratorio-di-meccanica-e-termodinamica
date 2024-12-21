@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a70f17c-07ca-4afe-9189-c86072b9b984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/istogramma.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/istogramma.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/probabilitàsomma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.venv/Scripts/probabilitàsomma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1731599376567" duration="1310000" />
       <workItem from="1731753558796" duration="19000" />
       <workItem from="1732823410009" duration="121000" />
-      <workItem from="1734793220037" duration="347000" />
+      <workItem from="1734793220037" duration="713000" />
     </task>
     <servers />
   </component>
