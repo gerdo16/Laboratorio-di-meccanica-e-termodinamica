@@ -1,0 +1,10 @@
+#
+# Questo è un file .gitignore.
+#
+
+# Files generati dal tex studio
+*/Latex/main.synctex
+*/Latex/main.aux
+*/Latex/main.txt
+*/Latex/main.pdf
+*/Latex/main.out
