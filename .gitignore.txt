@@ -3,8 +3,9 @@
 #
 
 # Files generati dal tex studio
-*/Latex/main.synctex
+*/Latex/main.synctex.gz
 */Latex/main.aux
 */Latex/main.txt
 */Latex/main.pdf
 */Latex/main.out
+*/Latex/main.log
