@@ -2,6 +2,3 @@
 CIAOOOOO questa è la nostra bellissima repository di laboratorio!!
 MI RACCOMANDO se volete fare una modifica createvi un vostro branch, poi ci sentiamo e facciamo insieme il merge nel main.
 
-Le cartelle contenenti le vecchie relazioni (prima della 9) sono terrificanti e non si capisce niente, ho copiato e incollato il contenuto di overleaf solo per conservare tutto il lavoro fatto. 
-Dalla relazione 9 in poi seguiremo delle convenzioni: Il file tex principale sarà chiamato RelazioneNUM_RELAZIONE (Esempio: Relazione9) e tutte le immagini inserite in esso saranno contenute in una sottocartella chiamata img.
-Ulteriori convenzioni saranno esposte quando mi verranno in mente!!!
