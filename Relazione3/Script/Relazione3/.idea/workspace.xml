@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a70f17c-07ca-4afe-9189-c86072b9b984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2a70f17c-07ca-4afe-9189-c86072b9b984" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +36,8 @@
     "Python.Grafico3p2.executor": "Run",
     "Python.Grafico4p2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/gerar/OneDrive/Desktop/GitHub/Laboratorio-di-meccanica-e-termodinamica/Relazione3/Script/Relazione3",
+    "git-widget-placeholder": "ger",
+    "last_opened_file_path": "C:/Users/gerar/OneDrive/Desktop/GitHub/Laboratorio-di-meccanica-e-termodinamica/Relazione9/Script/Relazione9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +79,7 @@
       <workItem from="1731753558796" duration="19000" />
       <workItem from="1732823410009" duration="121000" />
       <workItem from="1734793220037" duration="713000" />
+      <workItem from="1735239348669" duration="27000" />
     </task>
     <servers />
   </component>

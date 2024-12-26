@@ -51,8 +51,8 @@ print(dev_std)
 
 
 # Intervallo in cui vuoi calcolare la frequenza relativa
-interval_start = media - dev_std  # Inizio dell'intervallo
-interval_end = media + dev_std    # Fine dell'intervallo
+interval_start = media - 3*dev_std  # Inizio dell'intervallo
+interval_end = media + 3*dev_std    # Fine dell'intervallo
 
 # Trova i bin che si sovrappongono con l'intervallo desiderato
 bin_widths = np.diff(bin_edges)
