@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  26 DEC 2024 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  26 DEC 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,7 +1040,7 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.83 \end{document}
-                    <./istogramma1.pdf>] (main.aux)
+                    <./istogramma1.pdf>] [4] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1049,8 +1049,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D0ECA17B0717AB94222C7588B634C4C3;1966.
  ) 
 Here is how much of TeX's memory you used:
- 33931 strings out of 474486
- 775747 string characters out of 5753569
+ 33932 strings out of 474486
+ 775753 string characters out of 5753569
  1938542 words of memory out of 5000000
  55600 multiletter control sequences out of 15000+600000
  572668 words of font info for 77 fonts, out of 8000000 for 9000
@@ -1070,9 +1070,9 @@ ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (3 pages, 158145 bytes).
+Output written on main.pdf (4 pages, 159151 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
