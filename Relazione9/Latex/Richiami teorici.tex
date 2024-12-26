@@ -1,46 +1,47 @@
+\subsection{Definizione di probabilità di Laplace}
+La probabilità di un evento è il rapporto fra il numero dei casi favorevoli all'evento ed il numero dei casi possibili, nelle ipotesi in cui questi ultimi siano tutti "ugualmente possibili"
+\begin{equation}
+	P=\frac{n_f}{n_p}
+\end{equation}
+La probabilità è valutata a priori.
+
+\subsection{Modello teorico analizzato}
 Siano assegnati due dadi, rispettivamente di quattro e venti facce. Sia inoltre $X$ la variabile aleatoria che descrive la somma dei punteggi ottenuti ad ogni lancio. Allora $X$ è una variabile discreta che assume i seguenti valori:
-\begin{center}
-    $\{x_i\}_{i=1,...,n} = \{2 \leq m \leq 24\}$
-\end{center}
+\begin{equation}
+    \{x_i\}_{i=1,...,n} = \{2 \leq m \leq 24\}
+\end{equation}
 In condizioni ideali e in assenza di ulteriori informazioni, è ragionevole assumere che le coppie del tipo $(x_i, y_j)$, con $i \in \{1,...,4\}$ e $j \in \{1,...,20\}$, siano equiprobabili. Pertanto:
-\begin{center}
-    $P(x_i, y_i) = \frac{1}{4 \cdot 20}$, $\forall i, j$
-\end{center}
-
-
-%Di conseguenza per $X$ si ottiene:
-%\begin{align*}
-%    \{p_i\}_{i=1,...,80} = \{0.0125, 0.025, 0.0375, 0.05, 0.05, 0.05, 0.05, %\\ 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, %0.05, 0.0375, 0.025, 0.0125\}
-%\end{align*}
+\begin{equation}
+    P(x_i, y_i) = \frac{1}{4 \cdot 20}, \forall i, j
+\end{equation}
 
 
 \subsection{Indici di Posizione: Valore Atteso}
 Sia $Y$ una variabile aleatoria discreta (che per i nostri scopi possiamo assumere finita). Si definisce \textbf{valore atteso} di $Y$ la quantità:
-\begin{center}
-    \[\mathbb{E}[Y] = \sum_{i=1}^{n} y_i p_i\]
-\end{center}
+\begin{equation}
+    E[Y] = \sum_{i=1}^{n} y_i p_i
+\end{equation}
 dove i valori $y_i$ rappresentano le possibili realizzazioni di $Y$ mentre $p_i$ le rispettive probabilità. Nel caso in esame, si ottiene:
-\begin{center}
-    $\mathbb{E}[X] = 13$
-\end{center}
+\begin{equation}
+    E[X] = 13
+\end{equation}
 \subsection{Indici di Dispersione: Varianza e Deviazione Standard}
 Si definisce \textbf{varianza} di $Y$ la quantità:
-\begin{align*}
-    \mathrm{Var}(Y) :&= \mathbb{E}[(Y-\mathbb{E}[Y])^2]= \\
-    &= \sum_{i=1}^{n}p_i(y_i - \mu)^2
-\end{align*}
+\begin{equation}
+    E[(Y-E[Y])^2]= \sum_{i=1}^{n}p_i(y_i - \mu)^2 = \sigma^2
+\end{equation}
 Nel caso specifico si ottiene il seguente valore:
-\begin{align*}
-    \mathrm{Var}(Y) :&= 34.5
-\end{align*}
+\begin{equation}
+    \sigma^2= 34.5
+\end{equation}
 Si definisce invece \textbf{deviazione standard} di $Y$ la quantità:
-\begin{align*}
-    \sigma := \sqrt{\text{Var}(Y)}
-\end{align*}
+\begin{equation}
+    \sigma := \sqrt{E[(Y-E[Y])^2]}
+\end{equation}
 che nel nostro caso assume il seguente valore:
-\begin{align*}
+\begin{equation}
     \sigma = 5.87
-\end{align*}
+\end{equation}
 
 \subsection{Considerazioni Aggiuntive}
 Avendo a disposizione i valori di media $\mu$ e variazione standard $\sigma$ possiamo calcolare le probabilità che la variabile $X$ assuma valori nei seguenti intervalli:
