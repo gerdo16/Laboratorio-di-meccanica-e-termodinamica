@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f6c17f-587c-460b-9e2a-33b2a828fb05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Relazione2/Script/pythonProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/istogramma2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/istogramma2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/secondaParte.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/secondaParte.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Latex/Descrizione e analisi dei dati sperimentali.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Latex/Descrizione e analisi dei dati sperimentali.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Latex/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../Latex/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Latex/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Latex/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Latex/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Latex/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Latex/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../Latex/main.synctex.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <workItem from="1734787338873" duration="128000" />
       <workItem from="1734793110319" duration="892000" />
       <workItem from="1735239376466" duration="2775000" />
-      <workItem from="1735293100792" duration="1438000" />
+      <workItem from="1735293100792" duration="4242000" />
     </task>
     <servers />
   </component>
@@ -78,8 +80,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Relazione9$tabellaRisultati.coverage" NAME="tabellaRisultati Coverage Results" MODIFIED="1735294042278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Scripts" />
+    <SUITE FILE_PATH="coverage/Relazione9$tabellaRisultati.coverage" NAME="tabellaRisultati Coverage Results" MODIFIED="1735296252738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Scripts" />
     <SUITE FILE_PATH="coverage/Relazione9$probabilitàsomma.coverage" NAME="probabilitàsomma Coverage Results" MODIFIED="1735239798475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Scripts" />
-    <SUITE FILE_PATH="coverage/Relazione9$secondaParte.coverage" NAME="secondaParte Coverage Results" MODIFIED="1735294419096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Scripts" />
+    <SUITE FILE_PATH="coverage/Relazione9$secondaParte.coverage" NAME="secondaParte Coverage Results" MODIFIED="1735296214552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Scripts" />
   </component>
 </project>
