@@ -9,6 +9,15 @@ dati = np.loadtxt('tirodado.txt')
 datiQuattro = dati[:, 0]
 datiVenti = dati[:, 1]
 
+with open('Quattro.txt', 'w') as file:
+    for numero in datiQuattro:
+        file.write(str(numero) + '\n')
+
+with open('Venti.txt', 'w') as file:
+    for numero in datiVenti:
+        file.write(str(numero) + '\n')
+
+
 sommaDadi = datiQuattro + datiVenti
 
 counts, bin_edges = np.histogram(sommaDadi, bins=23, density=True)
