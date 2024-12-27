@@ -20,6 +20,10 @@ with open('Venti.txt', 'w') as file:
 
 sommaDadi = datiQuattro + datiVenti
 
+with open('Somma.txt', 'w') as file:
+    for numero in sommaDadi:
+        file.write(str(numero) + '\n')
+
 counts, bin_edges = np.histogram(sommaDadi, bins=23, density=True)
 
 fig, ax = plt.subplots()
