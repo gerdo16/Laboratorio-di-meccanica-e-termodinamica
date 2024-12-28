@@ -48,17 +48,17 @@ media = statistics.mean(sommaDadi)
 mediana = statistics.median(sommaDadi)
 moda = statistics.mode(sommaDadi)
 
-print(media)
+print("media ",media)
 print(mediana)
 print(moda)
 
 dev_std = np.std(sommaDadi)
-print(dev_std)
+print("dev std ",dev_std)
 
 
 # Intervallo in cui vuoi calcolare la frequenza relativa
-interval_start = media - dev_std  # Inizio dell'intervallo
-interval_end = media + dev_std    # Fine dell'intervallo
+interval_start = media - 3*dev_std  # Inizio dell'intervallo
+interval_end = media + 3*dev_std    # Fine dell'intervallo
 
 # Trova i bin che si sovrappongono con l'intervallo desiderato
 bin_widths = np.diff(bin_edges)
