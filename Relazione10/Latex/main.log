@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  2 APR 2025 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  2 APR 2025 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,15 +1060,8 @@ scura.png>]) (Apparato sperimentale.tex)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 66BF0BF9A2510380490CF1564C8F432E;1130
-(rerunfilecheck)             After:  E817550C7DD49859DDA0F8BFFBBC4E2B;1130.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E817550C7DD49859DDA0F8BFFBBC4E2B;1130.
  ) 
 Here is how much of TeX's memory you used:
  33936 strings out of 474486
