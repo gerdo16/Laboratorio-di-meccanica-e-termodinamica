@@ -1,0 +1,91 @@
+L'ottica geometrica è una branca della fisica classica che permette di descrivere 
+efficacemente la propagazione della luce, nell'approssimazione in cui la lunghezza d'onda $\lambda$ del raggio luminoso 
+sia molto inferiore alle dimensioni $d$ degli ostacoli incontrati: 
+\begin{center}
+	$\lambda << d$
+\end{center}
+In tale contesto, la luce può essere rappresentata come un fascio di raggi rettilinei, 
+ciascuno dei quali rappresenta la direzione di propagazione dell'onda luminosa. Si tratta di un modello semplificato che 
+permette però di descrivere un'ampia gamma di fenomeni in maniera soddisfacente e senza ricorrere al concetto di onda. 
+\paragraph{}
+In un mezzo omogeneo e trasparente, la luce si propaga secondo traiettorie rettilinee. 
+L'evidenza sperimentale mostra infatti che  un corpo opaco interposto tra una sorgente luminosa puntiforme e uno schermo, 
+proietta un'ombra con contorni ben definiti, la cui forma dipende dalla geometria dell'ostacolo e dalla direzione dei raggi incidenti, 
+compatibilmente con il principio secondo cui i raggi luminosi si propagano in linea retta e non possono aggirare gli ostacoli.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\textwidth]{../figures/pendolo.png}
+	\caption{La regione d’ombra, al di là
+		dell’ostacolo è limitata al solo
+		cono avente per vertice la sorgente
+		puntiforme S e generatrici tangenti
+		all’ostacolo.}
+\end{figure}
+
+Questo principio trova applicazione pratica nella camera oscura, in cui un piccolo foro proietta un'immagine invertita della sorgente 
+luminosa su uno schermo opposto.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\textwidth]{../figures/camera_oscura.png}
+	\caption{Camera Oscura}
+\end{figure}
+
+Quando un raggio luminoso attraversa l'interfaccia tra due mezzi con diverso indice di rifrazione, 
+subisce una variazione di direzione. La rifrazione è descritta dalle seguenti leggi:
+Il raggio incidente, il raggio rifratto e la normale alla superficie nel punto di incidenza giacciono nello stesso piano.
+La relazione tra gli angoli di incidenza e di rifrazione è espressa dalla legge di Snell:
+
+
+
+dove x  e y sono gli indici di rifrazione dei due mezzi, z è l'angolo di incidenza e v è l'angolo di rifrazione.
+L'indice di rifrazione  è definito come il rapporto tra la velocità della luce nel vuoto  
+e la velocità della luce nel mezzo considerato :
+
+
+
+\subsection{Richiami Statistici}
+Il metodo dei minimi quadrati è una tecnica che permette di trovare una funzione, rappresentata da una curva di regressione, che si avvicini il più possibile ad un insieme di dati (tipicamente punti del piano). In particolare, la funzione trovata deve essere quella che minimizza la somma dei quadrati delle distanze tra i dati osservati e quelli della curva che rappresenta la funzione stessa. Siano $b$ il coefficiente angolare e $a$ l'intercetta della retta di regressione:
+\begin{equation}
+	b=\frac{\displaystyle\sum_{i=1}^{N}[(x_i-\overline{x})(y_i-\overline{y})]}{\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2}
+\end{equation}
+\begin{equation}
+	a=\overline{y}-b\overline{x}
+\end{equation}
+Con $\overline{x}=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}$ e $\overline{y}=\frac{\displaystyle\sum_{i=1}^{N}y_i}{N}$
+mentre le incertezze:
+\begin{equation}
+	\Delta b=3\sigma_b
+\end{equation}
+\begin{equation}
+	\Delta a=3\sigma_a
+\end{equation}
+Con $$\sigma_b=\sigma_y\sqrt{\frac{N}{\Delta}}$$
+$$\sigma_y=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(y_i-bx_i-a)^2}{N-2}}$$
+$$\sigma_a=\sigma_y\sqrt{\frac{\displaystyle\sum_{i=1}^{N}x_i^2}{\Delta}}$$
+$$\Delta=N\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2$$
+
+\subsection{Richiami di teoria della misura}
+Sia $g$ una grandezza fisica dipendente da $N$ grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=f(x_1,...,x_N)
+\end{equation}
+con
+\begin{equation}
+	x_1 = x_{1_0}\pm \Delta x_1
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N = x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g=\displaystyle\sum_{i=1}^{N}\left|\frac{\partial g}{\partial x_i}\right|_{\vec{x}=\vec{x_0}}\Delta x_i
+\end{equation}
+con
+\begin{equation}
+	\vec{x}=(x_1,...,x_N)
+\end{equation}
+\begin{equation}
+	\vec{x_0}=(x_{1_0},...,x_{N_0})
+\end{equation}
+

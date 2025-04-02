@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e345650-3113-4163-9166-15ba382f1313" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/grafico1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/grafico1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/grafico1.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/grafico1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Script/Relazione9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/Conclusioni.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/Conclusioni.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/Richiami teorici.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/Richiami teorici.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Relazione9/Latex/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Relazione9/Latex/main.synctex.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,24 +19,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2qwZaKnyk54VOGBJdhPghCFT7lu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.grafico1.executor": "Coverage",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/gerar/OneDrive/Desktop/GitHub/Laboratorio-di-meccanica-e-termodinamica/Relazione8/Script/Relazione8",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.grafico1.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gerar/OneDrive/Desktop/GitHub/Laboratorio-di-meccanica-e-termodinamica/Relazione8/Script/Relazione8&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="grafico1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Relazione8" />
@@ -74,6 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1735575659757</updated>
       <workItem from="1735575660771" duration="130000" />
+      <workItem from="1735933628257" duration="55000" />
+      <workItem from="1736245577870" duration="1000" />
+      <workItem from="1741895455049" duration="29000" />
     </task>
     <servers />
   </component>
