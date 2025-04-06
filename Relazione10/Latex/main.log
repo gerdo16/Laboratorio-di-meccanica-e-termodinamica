@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  6 APR 2025 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  6 APR 2025 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,13 +1029,13 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 <./figures/Im1.png, id=34, 510.40688pt x 206.27063pt>
 File: ./figures/Im1.png Graphic file (type png)
 <use ./figures/Im1.png>
-Package pdftex.def Info: ./figures/Im1.png  used on input line 5.
-(pdftex.def)             Requested size: 305.33789pt x 123.40137pt.
+Package pdftex.def Info: ./figures/Im1.png  used on input line 11.
+(pdftex.def)             Requested size: 352.31625pt x 142.38982pt.
 <./figures/Im2.png, id=36, 524.71031pt x 207.77625pt>
 File: ./figures/Im2.png Graphic file (type png)
 <use ./figures/Im2.png>
-Package pdftex.def Info: ./figures/Im2.png  used on input line 11.
-(pdftex.def)             Requested size: 305.33789pt x 120.91293pt.
+Package pdftex.def Info: ./figures/Im2.png  used on input line 17.
+(pdftex.def)             Requested size: 352.31625pt x 139.5137pt.
  [1
 
 {C:/Users/gerar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
@@ -1043,38 +1043,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.16 
-     
+l.20 
+      <./figures/Im1.png>]
+<./figures/Im3.png, id=54, 522.45187pt x 267.24844pt>
+File: ./figures/Im3.png Graphic file (type png)
+<use ./figures/Im3.png>
+Package pdftex.def Info: ./figures/Im3.png  used on input line 25.
+(pdftex.def)             Requested size: 352.31625pt x 180.22179pt.
+
+! Too many }'s.
+l.33 \end{equation}}
+                    
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+) (Richiami teorici.tex [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.16 
-      <./figures/Im1.png> <./figures/Im2.png>]
-<./figures/Im3.png, id=53, 522.45187pt x 267.24844pt>
-File: ./figures/Im3.png Graphic file (type png)
-<use ./figures/Im3.png>
-Package pdftex.def Info: ./figures/Im3.png  used on input line 19.
-(pdftex.def)             Requested size: 305.33789pt x 156.19086pt.
-) (Richiami teorici.tex
-<./figures/pendolo.png, id=54, 442.65375pt x 320.69812pt>
-File: ./figures/pendolo.png Graphic file (type png)
-<use ./figures/pendolo.png>
-Package pdftex.def Info: ./figures/pendolo.png  used on input line 15.
-(pdftex.def)             Requested size: 258.36668pt x 187.19414pt.
- [2
+l.4 \begin{center}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.22 
-      <./figures/Im3.png>]
-<./figures/camera_oscura.png, id=64, 518.6878pt x 319.1925pt>
+l.4 \begin{center}
+                   <./figures/Im2.png> <./figures/Im3.png>]
+<./figures/pendolo.png, id=66, 442.65375pt x 320.69812pt>
+File: ./figures/pendolo.png Graphic file (type png)
+<use ./figures/pendolo.png>
+Package pdftex.def Info: ./figures/pendolo.png  used on input line 15.
+(pdftex.def)             Requested size: 258.36668pt x 187.19414pt.
+<./figures/camera_oscura.png, id=67, 518.6878pt x 319.1925pt>
 File: ./figures/camera_oscura.png Graphic file (type png)
 <use ./figures/camera_oscura.png>
 Package pdftex.def Info: ./figures/camera_oscura.png  used on input line 27.
 (pdftex.def)             Requested size: 258.36668pt x 159.00165pt.
-
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.30 
+      <./figures/pendolo.png>]
 
 LaTeX Warning: File `./figures/img-spezzata.png' not found on input line 35.
 
@@ -1095,21 +1107,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 5.
 (C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.38 I
-      l fenomeno della rifrazione è descritto dalla \textbf{Legge di Snell}...
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.38 I
-      l fenomeno della rifrazione è descritto dalla \textbf{Legge di Snell}...
- <./figures/pendolo.png> <./figures/camera_oscura.png>]
+)
 
 LaTeX Warning: File `./figures/rifrazione-1.png' not found on input line 45.
 
@@ -1127,19 +1125,25 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.48 S
+      i dicono inoltre:
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.48 S
-      i dicono inoltre:] [5
+      i dicono inoltre: <./figures/camera_oscura.png>] [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.71 \end{equation}
                    ]) (Apparato sperimentale.tex [6]
-<./figures/vaschettaemetro.jpg, id=109, 903.375pt x 1204.5pt>
+<./figures/vaschettaemetro.jpg, id=111, 903.375pt x 1204.5pt>
 File: ./figures/vaschettaemetro.jpg Graphic file (type jpg)
 <use ./figures/vaschettaemetro.jpg>
 Package pdftex.def Info: ./figures/vaschettaemetro.jpg  used on input line 31.
@@ -1151,7 +1155,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
                                                   \__shipout_drop_firstpage_...
 l.34 
      ]
-<./figures/asta.jpg, id=117, 1204.5pt x 1606.0pt>
+<./figures/asta.jpg, id=119, 1204.5pt x 1606.0pt>
 File: ./figures/asta.jpg Graphic file (type jpg)
 <use ./figures/asta.jpg>
 Package pdftex.def Info: ./figures/asta.jpg  used on input line 37.
@@ -1178,8 +1182,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E817550C7DD49859DDA0F8BFFBBC4E2B;1130.
  ) 
 Here is how much of TeX's memory you used:
- 34104 strings out of 474486
- 780587 string characters out of 5753569
+ 34106 strings out of 474486
+ 780613 string characters out of 5753569
  1935542 words of memory out of 5000000
  55748 multiletter control sequences out of 15000+600000
  572982 words of font info for 78 fonts, out of 8000000 for 9000
@@ -1202,9 +1206,9 @@ fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (9 pages, 531734 bytes).
+Output written on main.pdf (9 pages, 534026 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
