@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  7 APR 2025 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  7 APR 2025 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1276,13 +1276,25 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.324 
-      ]) (Conclusioni.tex) [14
+      ]
+<./figures/grafico1.pdf, id=234, 462.52798pt x 346.89601pt>
+File: ./figures/grafico1.pdf Graphic file (type pdf)
+<use ./figures/grafico1.pdf>
+Package pdftex.def Info: ./figures/grafico1.pdf  used on input line 338.
+(pdftex.def)             Requested size: 352.31625pt x 264.25241pt.
+) (Conclusioni.tex) [14
 pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.83 \end{document}
-                   ] (main.aux)
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \end{document}
+                    <./figures/grafico1.pdf>] [15] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1295,10 +1307,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 31CF06E7051935A7EDFD926CD7053CE6;2424.
  ) 
 Here is how much of TeX's memory you used:
- 34176 strings out of 474486
- 781481 string characters out of 5753569
+ 34187 strings out of 474486
+ 781771 string characters out of 5753569
  1937542 words of memory out of 5000000
- 55756 multiletter control sequences out of 15000+600000
+ 55765 multiletter control sequences out of 15000+600000
  572982 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,9n,93p,726b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1319,9 +1331,9 @@ fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (14 pages, 580583 bytes).
+Output written on main.pdf (15 pages, 599451 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
