@@ -56,6 +56,8 @@ sigma_b = sigmay*np.sqrt(len(x)/delta)
 
 delta_a = 3*sigma_a
 delta_b = 3*sigma_b
+print("delta_b= ", delta_b)
+print("delta_a= ", delta_a)
 
 tan_theta_i = np.tan(math.radians(theta_i))
 delta_tan_theta_i = (1/(np.cos(math.radians(theta_i))**2))*delta_theta_i
@@ -94,10 +96,10 @@ plt.ylabel(r'$\Delta x$ ($m$)')
 plt.title('Grafico con Bande di Errore')
 
 # Mostrare legenda
-#plt.legend()
+plt.legend()
 
 # Mostrare il grafico
-#plt.savefig("grafico1.pdf", format="pdf")
-#plt.show()
+plt.savefig("grafico1.pdf", format="pdf")
+plt.show()
 
 

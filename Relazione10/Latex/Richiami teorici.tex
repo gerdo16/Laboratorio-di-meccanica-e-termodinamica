@@ -12,7 +12,7 @@ proietta un'ombra con contorni ben definiti, la cui forma dipende dalla geometri
 compatibilmente con il principio secondo cui i raggi luminosi si propagano in linea retta e non possono aggirare gli ostacoli.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{./figures/pendolo.png}
+	\includegraphics[width=0.55\textwidth]{./Latex/figures/pendolo.png}
 	\caption{La regione d’ombra, al di là
 		dell’ostacolo è limitata al solo
 		cono avente per vertice la sorgente
@@ -20,11 +20,11 @@ compatibilmente con il principio secondo cui i raggi luminosi si propagano in li
 		all’ostacolo.}
 \end{figure}
 
-Questo principio trova applicazione pratica nella camera oscura, in cui un piccolo foro praticato su una parete di una scatola chiusa, proietta un'immagine invertita di una sorgente 
+Tale principio trova applicazione pratica nella camera oscura, in cui un piccolo foro praticato su una parete di una scatola chiusa, proietta un'immagine invertita di una sorgente 
 luminosa esterna sulla parete opposta interna alla scatola.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{./figures/camera_oscura.png}
+	\includegraphics[width=0.55\textwidth]{./Latex/figures/camera_oscura.png}
 	\caption{Camera Oscura}
 \end{figure}
 
@@ -32,7 +32,7 @@ Sperimentalmente si osserva che quando un raggio luminoso attraversa l'interfacc
 questo viene deviato rispetto alla normale alla superficie di separazione. Tale fenomeno è noto sotto il nome di \textbf{rifrazione}. é proprio a causa di questo fenomeno che possiamo osservare l'immagine spezzata di un oggetto immerso parzialmente in un bicchiere di acqua, come in figura. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{./figures/img-spezzata.png}
+	\includegraphics[width=0.55\textwidth]{./Latex/figures/img-spezzata.png}
 	\caption{immagine spezzata di una matita parzialmente immersa in un bicchiere d'acqua}
 \end{figure}
 Il fenomeno della rifrazione è descritto dalla \textbf{Legge di Snell}, secondo la quale Il raggio incidente, quello rifratto e la normale alla superficie nel punto di incidenza, giacciono nello stesso piano:
@@ -42,7 +42,7 @@ Il fenomeno della rifrazione è descritto dalla \textbf{Legge di Snell}, secondo
 Dove $\theta_i$ e $\theta_r$ sono gli angoli che il raggio luminoso forma con la normale alla superficie di incidenza nei rispettivi mezzi, mentre $v_1$ e $v_2$ sono le rispettive velocità di propagazione.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\textwidth]{./figures/rifrazione-1.png}
+	\includegraphics[width=0.55\textwidth]{./Latex/figures/rifrazione-1.png}
 	\caption{}
 \end{figure}
 Si dicono inoltre:
@@ -61,6 +61,19 @@ Da quanto detto, si ricava grazie alla legge di Snell:
     \frac{sin(\theta_i)}{sin(\theta_r)} = \frac{v_1}{v_2} = \frac{n_2}{n_1}
 \end{equation}
 Da misure sperimentali risulta che l'indice di rifrazione assoluto dell'aria $n_1$ è pari ad 1, mentre quello dell'acqua $n_2$ è pari a 1,33. Dall'esperienza effettuata ci si attende pertanto un valore prossimo a 1,33.
+
+\subsection{Determinazione della relazione tra spostamento dell'immagine ed angoli di incidenza e rifrazione}
+Come si evince dalla Figura (3), valgono le seguenti relazioni: 
+\begin{itemize}
+    \item $\overline{OH} = h \cdot \tan(\theta_i)$
+    \item $\overline{O'H} = h \cdot \tan(\theta_r)$
+\end{itemize}
+Osservando che lo spostamento $x$ si può ottenere al seguente modo:
+\begin{align}
+    x &= \overline{OH} - \overline{O'H} =  \\
+    &= h \cdot \tan(\theta_i) - h \cdot \tan(\theta_r) = \\
+    &= h \cdot (\tan(\theta_i) - \tan(\theta_r))
+\end{align}
 
 
 
