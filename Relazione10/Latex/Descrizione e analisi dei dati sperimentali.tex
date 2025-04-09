@@ -337,8 +337,18 @@ A questo punto è possibile mettere in relazione lo spostamento $x$, del punto $
 	\centering
 	\includegraphics[width=0.75\textwidth]{./figures/grafico1}
 	\caption{Il grafico mostra lo spostamento $x$ in funzione dell'altezza dell'acqua. I punti blu rappresentano le nostre misurazioni mentre in rosso è rappresentata la retta di best-fit calcolata utilizzando il metodo dei minimi quadrati (vedi Sezione (2.1)).\\
-	Coefficiente angolare: $0.95\pm 0.07$\\
-	Si noti, dalla Legge (2), che il coefficiente angolare è adimensionale.}
+	Coefficiente angolare: $b=0.95\pm 0.07$\\
+	Si noti, dalla Legge (1), che il coefficiente angolare è adimensionale.}
 \end{figure} 
+
+Ricordiamo, dalla Legge (1), che il coefficiente angolare della retta di best-fit in Figura (10) è uguale a $(\tan(\theta_i)-\tan(\theta_r))$. Avendo misurato $\theta_i$ e la relativa incertezza, e avendo calcolato, mediante metodi statistici, il coefficiente angolare della retta di regressione e la relativa incertezza, è possibile stimare l'angolo di rifrazione:
+\begin{equation}
+	\theta_r=\arctan(\tan(\theta_i)-b)=43.1^{\circ}
+\end{equation}
+e la relativa incertezza (vedi Legge (17)):
+\begin{equation}
+	\Delta \theta_r=\left(\frac{1}{\tan^2(\theta_i)-2b\tan(\theta_i)+b^2+1}\right)\Delta \tan(\theta_i) - \left(\frac{1}{b^2-2b\tan(\theta_i)b+\tan^2(\theta_i)+1}\right)=2.1^{\circ}
+\end{equation}
+
 
 
