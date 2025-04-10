@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  10 APR 2025 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  10 APR 2025 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,11 +1036,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 70B6A823CAE9DE4B023733FDCCC76BE5;751.
  ) 
 Here is how much of TeX's memory you used:
- 33880 strings out of 474486
- 774648 string characters out of 5753574
- 1930542 words of memory out of 5000000
- 55567 multiletter control sequences out of 15000+600000
- 569355 words of font info for 68 fonts, out of 8000000 for 9000
+ 33891 strings out of 474486
+ 774895 string characters out of 5753574
+ 1932542 words of memory out of 5000000
+ 55576 multiletter control sequences out of 15000+600000
+ 571109 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,6n,93p,726b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1
@@ -1048,10 +1048,12 @@ Here is how much of TeX's memory you used:
 ecbx1440.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
 i600\eccc1440.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecrm1728.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecrm1200.pk>
-Output written on main.pdf (1 page, 39343 bytes).
+ppen/ec/dpi600\ecrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (1 page, 76720 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
