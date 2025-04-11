@@ -1,0 +1,82 @@
+\subsection{Momento d'Inerzia}
+Nello studio della dinamica rotazionale di un corpo rigido, il momento d'inerzia riveste un ruolo fondamentale, paragonabile a quello della massa nel secondo principio della dinamica: si tratta di una grandezza fisica che quantifica la resistenza di un corpo rigido alla variazione del proprio stato di rotazione rispetto a un asse. Per un sistema discreto composto da $n$ punti materiali, il momento d'inerzia è definito come la somma dei prodotti tra la massa di ciascun punto e il quadrato della sua distanza dall'asse stesso:
+\begin{equation}
+    I = \sum_{i=1}^{n}m_ir_i^2
+\end{equation}
+Per un sistema continuo invece, la definizione si estende in maniera naturale al seguente modo:
+\begin{equation}
+    I = \int_{V}\rho(\vec{r})r^2dV
+\end{equation}
+dove $\rho(\vec{r})$ rappresenta la densità del materiale nel generico punto individuato dal vettore posizione $\vec{r}$, mentre $r$ rappresenta la distanza di ciascun elemento infinitesimo di volume 
+$dV$ dall'asse di rotazione considerato.
+
+\subsection{Teorema di Huygens Steiner}
+Come si evince dalla definizione (2), la conoscenza del momento di inerzia di un corpo rigido rispetto a un asse passa per il calcolo di un integrale. Nel caso in cui si presentino particolari condizioni di simmetria, il calcolo dell'integrale può di norma essere semplificato notevolmente. Quando tali condizioni vengono meno, il calcolo del momento di inerzia può diventare assai complicato. Il teorema di Huygens Steiner interviene in questo caso, permettendo di risolvere il problema. Esso stabilisce che \emph{Il momento d'inerzia di un corpo di massa m rispetto ad un asse che si trova ad una distanza d  dal centro di massa del corpo è dato da:}
+\begin{equation}
+    I = I_c + md^2
+\end{equation}
+dove $I_c$ indica il momento d'inerzia del corpo rispetto ad un asse parallelo al primo e passante per il centro di massa. 
+
+\subsection{Richiami Statistici}
+Il metodo dei minimi quadrati è una tecnica che permette di trovare una funzione, rappresentata da una curva di regressione, che si avvicini il più possibile ad un insieme di dati (tipicamente punti del piano). In particolare, la funzione trovata deve essere quella che minimizza la somma dei quadrati delle distanze tra i dati osservati e quelli della curva che rappresenta la funzione stessa. Siano $b$ il coefficiente angolare e $a$ l'intercetta della retta di regressione:
+\begin{equation}
+	b=\frac{\displaystyle\sum_{i=1}^{N}[(x_i-\overline{x})(y_i-\overline{y})]}{\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2}
+\end{equation}
+\begin{equation}
+	a=\overline{y}-b\overline{x}
+\end{equation}
+Con $\overline{x}=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}$ e $\overline{y}=\frac{\displaystyle\sum_{i=1}^{N}y_i}{N}$
+mentre le incertezze:
+\begin{equation}
+	\Delta b=3\sigma_b
+\end{equation}
+\begin{equation}
+	\Delta a=3\sigma_a
+\end{equation}
+Con $$\sigma_b=\sigma_y\sqrt{\frac{N}{\Delta}}$$
+$$\sigma_y=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(y_i-bx_i-a)^2}{N-2}}$$
+$$\sigma_a=\sigma_y\sqrt{\frac{\displaystyle\sum_{i=1}^{N}x_i^2}{\Delta}}$$
+$$\Delta=N\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2$$
+
+\subsection{Richiami di teoria della misura}
+Sia $g$ una grandezza fisica dipendente da $N$ grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=f(x_1,...,x_N)
+\end{equation}
+con
+\begin{equation}
+	x_1 = x_{1_0}\pm \Delta x_1
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N = x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g=\displaystyle\sum_{i=1}^{N}\left|\frac{\partial g}{\partial x_i}\right|_{\vec{x}=\vec{x_0}}\Delta x_i
+\end{equation}
+con
+\begin{equation}
+	\vec{x}=(x_1,...,x_N)
+\end{equation}
+\begin{equation}
+	\vec{x_0}=(x_{1_0},...,x_{N_0})
+\end{equation}
+Sia g una grandezza fisica pari alla somma, o alla differenza, di N grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=x_1\pm...\pm x_N
+\end{equation}
+con
+\begin{equation}
+	x_1=x_{1_0}\pm \Delta x_N
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N=x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g= \Delta x_1+...+\Delta x_N
+\end{equation}
+
+
