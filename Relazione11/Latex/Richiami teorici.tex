@@ -10,8 +10,33 @@ Per un sistema continuo invece, la definizione si estende in maniera naturale al
 dove $\rho(\vec{r})$ rappresenta la densità del materiale nel generico punto individuato dal vettore posizione $\vec{r}$, mentre $r$ rappresenta la distanza di ciascun elemento infinitesimo di volume 
 $dV$ dall'asse di rotazione considerato.
 
-\subsection{Teorema di Huygens Steiner}
-Come si evince dalla definizione (2), la conoscenza del momento di inerzia di un corpo rigido rispetto a un asse passa per il calcolo di un integrale. Nel caso in cui si presentino particolari condizioni di simmetria, il calcolo dell'integrale può di norma essere semplificato notevolmente. Quando tali condizioni vengono meno, il calcolo del momento di inerzia può diventare assai complicato. Il teorema di Huygens Steiner interviene in questo caso, permettendo di risolvere il problema. Esso stabilisce che \emph{Il momento d'inerzia di un corpo di massa m rispetto ad un asse che si trova ad una distanza d  dal centro di massa del corpo è dato da:}
+\subsection{Oscillatore torsionale}
+Un oscillatore torsionale è un sistema meccanico che oscilla ruotando attorno a un asse fisso, sotto l'azione di una forza elastica di richiamo. A differenza del classico pendolo lineare, l'oscillatore torsionale ruota avanti e indietro, in senso orario e antiorario, intorno a un asse. Nel nostro caso, l'oscillatore è composto da:
+\begin{itemize}
+	\item Una molla elicoidale che genera un momento torcente quando viene ruotata;
+	\item Un corpo rigido (come un bilanciere o un disco) fissato alla molla, che oscilla attorno all'asse verticale passante per il punto di sospensione.
+\end{itemize}
+Quando l'oscillatore viene ruotato di un certo angolo e poi lasciato libero, la molla esercita un momento torcente $M$ proporzionale all'angolo di rotazione $\theta$:
+\begin{equation}
+	M = -K\theta
+\end{equation}
+dove:
+\begin{itemize}
+	\item $K$ è la costante di richiamo torsionale della molla (in $\frac{N\cdot m}{rad}$);
+	\item Il segno negativo indica che la forza è diretta verso la posizione di equilibrio.
+\end{itemize}
+La dinamica di questo moto è del tutto analoga a quella di un oscillatore armonico semplice (come una massa su una molla), e l'equazione del moto diventa:
+\begin{equation}
+	I\frac{d^2\theta}{dt^2} = -K\theta
+\end{equation}
+dove $I$ è il momento di inerzia del corpo rispetto all'asse di rotazione. Questa equazione ha una soluzione del tipo:
+\begin{equation}
+	\theta(t)=\theta_0\cos(\omega t+\phi)
+\end{equation}
+con pulsazione angolare $\omega=\sqrt{\frac{I}{K}}$, da cui si ricava la Legge (3).
+
+\subsection{Teorema di Huygens-Steiner}
+Come si evince dalla Legge (5), la conoscenza del momento di inerzia di un corpo rigido rispetto a un asse passa per il calcolo di un integrale. Nel caso in cui si presentino particolari condizioni di simmetria, il calcolo dell'integrale può di norma essere semplificato notevolmente. Quando tali condizioni vengono meno, il calcolo del momento di inerzia può diventare assai complicato. Il teorema di Huygens Steiner interviene in questo caso, permettendo di risolvere il problema. Esso stabilisce che \emph{Il momento d'inerzia di un corpo di massa m rispetto ad un asse che si trova ad una distanza d  dal centro di massa del corpo è dato da:}
 \begin{equation}
     I = I_c + md^2
 \end{equation}
