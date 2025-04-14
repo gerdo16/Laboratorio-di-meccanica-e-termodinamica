@@ -6,12 +6,14 @@ from scipy.optimize import curve_fit
 pi = np.pi
 
 # import data 
-from data import r, F, dr, dF, mass_bar, lenght_bar, T
+from data import r, F, dr, dF, mass_bar, 
+lenght_bar, T, dT, T_pt2, dT_pt2, r_pt2, dr_pt2,
+dmass_bar, dlenght_bar
 
 # Computation of torque and uncertainty with differentials method
 M = F * r  # torque in Nm
 
-dM_rel = abs(r) * dr + abs(F) * dF # relative uncertainty of M
+dM_rel = abs(F) * dr + abs(r) * dF # relative uncertainty of M
 dM = dM_rel * M  # absolute uncertainty of M
 
 # Computing the mean value of M and its uncertainty
@@ -22,7 +24,7 @@ print(f'Mean value of M: {M_mean} ± {error_M_mean} Nm')
 
 # Computing K and its uncertainty
 K = M_mean / pi
-dK = pi * error_M_mean
+dK = error_M_mean / pi
 
 print(f'K: {K} ± {dK} Nm/rad')
 
@@ -35,19 +37,110 @@ print(f'I_bar: {I_bar} kg*m^2')
 
 # Computing the moment of inertia and its uncertainty
 I_values = []
+dI_values = []
+T_mean_values = []
 for i in range(0, len(T), 4):
     block = T[i:i+4]
-    print(block)
-    T_mean = np.mean(block)
-    I = K * T_mean**2 / (4 * np.pi**2)
 
-    # remove I_bar from I
+    # UPDATE
+    T_max = np.max(block)
+    T_min = np.min(block)
+    T_mean = (T_max + T_min) / 2
+    error_T_mean = (T_max - T_min) / 2
+
+
+    T_mean_values.append(T_mean)
+
+    I = K * T_mean**2 / (4 * pi**2)
+    dI = (T_mean**2 * dK + 2 * K * T_mean * error_T_mean) / (4 * pi**2)
+
     I = I - I_bar
-    print(I)
+    dI_bar = (lenght_bar**2 * dmass_bar + 2 * mass_bar * lenght_bar * dlenght_bar) / 12
+
+    # update dI
+    dI = dI + dI_bar
+
     I_values.append(I)
+    dI_values.append(dI)
 
 I_values = np.array(I_values)
-I_mean = np.mean(I_values)
 
-print("I for each block:", I_values)
-print("I mean:", I_mean)
+# Graph of T_mean vs r^2
+plt.figure(figsize=(10, 5))
+plt.subplot(1, 2, 1)
+plt.plot(r**2, T_mean_values, 'o-', label='T mean')
+plt.xlabel('$r^2$ (m$^2$)')
+plt.ylabel('T mean (s)')
+plt.title('T mean vs $r^2$')
+plt.grid(True)
+plt.legend()
+
+# Plot 2: I vs r^2
+plt.subplot(1, 2, 2)
+plt.errorbar(r**2, I_values, yerr=dI_values, fmt='o-', label='I', capsize=4)
+plt.xlabel('$r^2$ (m$^2$)')
+plt.ylabel('Moment of inertia I (kg·m²)')
+plt.title('Moment of inertia vs $r^2$')
+plt.grid(True)
+plt.legend()
+
+plt.tight_layout()
+
+plt.show()
+
+# PART 2: Moment of inertia of the Disk
+
+# Computing the moment of inertia and its uncertainty
+I_pt2_values = []
+dI_pt2_values = []
+T_mean_pt2_values = []
+for i in range(0, len(T), 4):
+    block = T_pt2[i:i+4]
+
+    # UPDATE
+    T_max = np.max(block)
+    T_min = np.min(block)
+    T_mean = (T_max + T_min) / 2
+    error_T_mean = (T_max - T_min) / 2
+
+    T_mean_pt2_values.append(T_mean)
+
+    I = K * T_mean**2 / (4 * pi**2)
+    dI = (T_mean**2 * dK + 2 * K * T_mean * error_T_mean) / (4 * pi**2)
+    I_pt2_values.append(I)
+    dI_pt2_values.append(dI)
+
+I_pt2_values = np.array(I_pt2_values)
+
+# graph of I_pt2_values vs r_pt2^2
+plt.subplot(1, 2, 1)
+plt.errorbar(r_pt2**2, I_pt2_values, yerr=dI_pt2_values, fmt='o-', label='I', capsize=4)
+plt.xlabel('$r^2$ (m$^2$)')
+plt.ylabel('Moment of inertia I (kg·m²)')
+plt.title('Moment of inertia vs $r^2$')
+plt.grid(True)
+plt.legend()
+
+# Data for Huygens-Steiner theorem
+d2 = r_pt2**2
+I_pt2_values = np.array(I_pt2_values)
+dI_pt2_values = np.array(dI_pt2_values)
+
+# Parameters
+mass = 2.00  # kg 
+I0 = I_pt2_values[0]  
+
+# Grid of values
+d2_grid = np.linspace(0, np.max(d2)*1.1, 200)
+
+# Plot
+plt.subplot(1, 2, 2)
+plt.plot(d2_grid, I0 + mass * d2_grid, 'r--', label=f'(mass = {mass:.2f} kg)')
+
+plt.xlabel('$d^2$ (m²)')
+plt.ylabel('I (kg·m²)')
+plt.title('Huygens-Steiner')
+plt.grid(True)
+plt.legend()
+
+plt.show()
