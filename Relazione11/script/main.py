@@ -6,9 +6,7 @@ from scipy.optimize import curve_fit
 pi = np.pi
 
 # import data 
-from data import r, F, dr, dF, mass_bar, 
-lenght_bar, T, dT, T_pt2, dT_pt2, r_pt2, dr_pt2,
-dmass_bar, dlenght_bar
+from data import r, F, dr, dF, mass_bar, lenght_bar, T, dT, T_pt2, dT_pt2, r_pt2, dr_pt2, dmass_bar, dlenght_bar
 
 # Computation of torque and uncertainty with differentials method
 M = F * r  # torque in Nm
@@ -20,13 +18,13 @@ dM = dM_rel * M  # absolute uncertainty of M
 M_mean = np.mean(M)
 error_M_mean = np.std(M, ddof=1) / np.sqrt(len(M))
 
-print(f'Mean value of M: {M_mean} ± {error_M_mean} Nm')
-
 # Computing K and its uncertainty
 K = M_mean / pi
 dK = error_M_mean / pi
 
 print(f'K: {K} ± {dK} Nm/rad')
+print(f'M:{M}')
+print('Uncertainties on M', dM)
 
 # PART 1: Moment of inertia
 
@@ -64,6 +62,10 @@ for i in range(0, len(T), 4):
     dI_values.append(dI)
 
 I_values = np.array(I_values)
+
+print('Distances r' , r)
+print('Uncertainties on distances r' , dr)
+print('Uncertainties on inertia moments array' , dI_values)
 
 # Graph of T_mean vs r^2
 plt.figure(figsize=(10, 5))
@@ -112,35 +114,16 @@ for i in range(0, len(T), 4):
 
 I_pt2_values = np.array(I_pt2_values)
 
-# graph of I_pt2_values vs r_pt2^2
-plt.subplot(1, 2, 1)
-plt.errorbar(r_pt2**2, I_pt2_values, yerr=dI_pt2_values, fmt='o-', label='I', capsize=4)
-plt.xlabel('$r^2$ (m$^2$)')
-plt.ylabel('Moment of inertia I (kg·m²)')
-plt.title('Moment of inertia vs $r^2$')
-plt.grid(True)
-plt.legend()
-
 # Data for Huygens-Steiner theorem
 d2 = r_pt2**2
 I_pt2_values = np.array(I_pt2_values)
 dI_pt2_values = np.array(dI_pt2_values)
 
-# Parameters
-mass = 2.00  # kg 
-I0 = I_pt2_values[0]  
+# Least squares fit
+slope, y_intercept = np.polyfit(d2, I_pt2_values, 1)
+y = slope * d2 + y_intercept
 
-# Grid of values
-d2_grid = np.linspace(0, np.max(d2)*1.1, 200)
-
-# Plot
-plt.subplot(1, 2, 2)
-plt.plot(d2_grid, I0 + mass * d2_grid, 'r--', label=f'(mass = {mass:.2f} kg)')
-
-plt.xlabel('$d^2$ (m²)')
-plt.ylabel('I (kg·m²)')
-plt.title('Huygens-Steiner')
-plt.grid(True)
-plt.legend()
+plt.plot(d2, y, color="red", label="Best fit line")
+plt.errorbar(d2, I_pt2_values, xerr=2*dr_pt2*d2, yerr=dI_pt2_values, fmt='o', capsize=5, label="Dati con errore")
 
 plt.show()
