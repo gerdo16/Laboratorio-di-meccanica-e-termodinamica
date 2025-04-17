@@ -16,7 +16,7 @@ dM = dM_rel * M  # absolute uncertainty of M
 
 # Computing the mean value of M and its uncertainty
 M_mean = np.mean(M)
-error_M_mean = np.std(M, ddof=1) / np.sqrt(len(M))
+error_M_mean = np.std(M) / np.sqrt(len(M))
 
 # Computing K and its uncertainty
 K = M_mean / pi
@@ -25,6 +25,8 @@ dK = error_M_mean / pi
 print(f'K: {K} ± {dK} Nm/rad')
 print(f'M:{M}')
 print('Uncertainties on M', dM)
+print(f'Mean M: {M_mean} ± {error_M_mean} Nm')
+print(f'K: {K} ± {dK} Nm/rad')
 
 # PART 1: Moment of inertia
 
@@ -37,6 +39,7 @@ print(f'I_bar: {I_bar} kg*m^2')
 I_values = []
 dI_values = []
 T_mean_values = []
+error_T_mean_values = []
 for i in range(0, len(T), 4):
     block = T[i:i+4]
 
@@ -48,6 +51,7 @@ for i in range(0, len(T), 4):
 
 
     T_mean_values.append(T_mean)
+    error_T_mean_values.append(error_T_mean)
 
     I = K * T_mean**2 / (4 * pi**2)
     dI = (T_mean**2 * dK + 2 * K * T_mean * error_T_mean) / (4 * pi**2)
@@ -63,9 +67,14 @@ for i in range(0, len(T), 4):
 
 I_values = np.array(I_values)
 
+print('I bar:', I_bar)
+print('dI bar:', dI_bar)
 print('Distances r' , r)
 print('Uncertainties on distances r' , dr)
+print('Moments of inertia array' , I_values)
 print('Uncertainties on inertia moments array' , dI_values)
+print('T_mean array' , T_mean_values)
+print('T_mean error array' , error_T_mean_values)
 
 # Graph of T_mean vs r^2
 plt.figure(figsize=(10, 5))
