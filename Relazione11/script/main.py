@@ -139,6 +139,8 @@ slope, y_intercept = np.polyfit(d2, I_pt2_values, 1)
 y = slope * d2 + y_intercept
 
 plt.plot(d2, y, color="red", label="Best fit line")
+plt.xlabel('$r^2$ (m$^2$)')
+plt.ylabel('Moment of inertia I (kg·m²)')
 plt.errorbar(d2, I_pt2_values, xerr=2*dr_pt2*d2, yerr=dI_pt2_values, fmt='o', capsize=5, label="Dati con errore")
 
 plt.show()
