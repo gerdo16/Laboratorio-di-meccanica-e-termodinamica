@@ -8,6 +8,9 @@ pi = np.pi
 # import data 
 from data import r, F, dr, dF, mass_bar, lenght_bar, T, dT, T_pt2, dT_pt2, r_pt2, dr_pt2, dmass_bar, dlenght_bar
 
+print('r_pt2', r_pt2)
+print('dr_pt2', dr_pt2)
+
 # Computation of torque and uncertainty with differentials method
 M = F * r  # torque in Nm
 
@@ -127,6 +130,9 @@ I_pt2_values = np.array(I_pt2_values)
 d2 = r_pt2**2
 I_pt2_values = np.array(I_pt2_values)
 dI_pt2_values = np.array(dI_pt2_values)
+
+print('I pt2:', I_pt2_values)
+print('dI pt2:', dI_pt2_values)
 
 # Least squares fit
 slope, y_intercept = np.polyfit(d2, I_pt2_values, 1)
