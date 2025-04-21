@@ -9,14 +9,14 @@ I dati relativi alle distanze e alle forze di richiamo misurate sono contenuti n
 	\centering
 	\begin{tabular}{|c|c|}
 		\hline
-		& \textbf{r $[m]$ } \\
+		& \textbf{r $[cm]$ } \\
 		\hline
-		  $r_1$ & $0.3005\pm 0.0005$ \\
-		$r_2$ & $0.2505\pm 0.0005$ \\
-		$r_3$ & $0.2005\pm 0.0005$ \\
-		$r_4$ & $0.1505\pm 0.0005$ \\
-		$r_5$ & $0.1005\pm 0.0005$ \\
-            $r_6$ & $0.0505 \pm 0.0005$ \\
+		  $r_1$ & $30.00\pm 0.05$ \\
+		$r_2$ & $25.00\pm 0.05$ \\
+		$r_3$ & $20.00\pm 0.05$ \\
+		$r_4$ & $15.00\pm 0.05$ \\
+		$r_5$ & $10.00\pm 0.05$ \\
+            $r_6$ & $5.00 \pm 0.05$ \\
 		\hline
 	\end{tabular}
 	\caption{Distanze $r$ del punto di applicazione del dinamometro dal centro del bilanciere.}
@@ -49,12 +49,12 @@ In corrispondenza dei valori di $r$ ed $F$ misurati, si ottengono i valori del m
 		\hline
 		\textbf{M $[N*m]$} \\
 		\hline
-		$0.0525\pm 0.0004$ \\
-		$0.0563\pm 0.0004$ \\
-		$0.0550\pm 0.0003$ \\
-		$0.0563\pm 0.0003$ \\
-		$0.0550\pm 0.0003$ \\
-            $0.0550 \pm 0.0001$ \\
+		$(5.25\pm 0.04)10^{-2}$ \\
+		$(5.63\pm 0.04)10^{-2}$ \\
+		$(5.50\pm 0.03)10^{-2}$ \\
+		$(5.63\pm 0.03)10^{-2}$ \\
+		$(5.50\pm 0.03)10^{-2}$ \\
+            $(5.50 \pm 0.01)10^{-2}$ \\
 		\hline
 	\end{tabular}
 	\caption{Momento $M$ della forza di richiamo al variare della distanza $r$.}
@@ -63,7 +63,7 @@ In corrispondenza dei valori di $r$ ed $F$ misurati, si ottengono i valori del m
 
 I valori di $M$ sono stati calcolati utilizzando la formula (24), arrotondandoli al numero minimo di cifre significative tra quelle dei fattori $r$ ed $F$, pari a tre. Le incertezze su $M$ sono state ottenute al seguente modo:
 \begin{itemize}
-    \item Si calcola l'incertezza relativa con la seguente formula di propagazione: 
+    \item Dalla legge di propagazione dell'errore (17) si ottiene, nel nostro caso: 
     \begin{equation}
         \frac{\delta M}{|M|} = \frac{\delta F}{|F|} + \frac{\delta r}{|r|}
     \end{equation}
@@ -99,8 +99,8 @@ A questo punto, è possibile sfruttare l'equazione (6) per stimare il modulo di 
 \end{equation}
 otteniamo così la seguente conclusione: 
 \begin{itemize}
-    \item $K = 0.018 \ \frac{Nm}{rad}$. 
-    \item $\delta K = \frac{1}{\pi}\cdot \delta M = 0.001 \  \frac{Nm}{rad}$
+    \item $K = 0.018 \ Nm$. 
+    \item $\delta K = \frac{1}{\pi}\cdot \delta M = 0.001 \  Nm$
 \end{itemize}
 
 \subsection{Parte I: Misura del momento d'inerzia di un corpo rigido}
@@ -167,7 +167,7 @@ A questo punto, mediante semplici calcoli, è possibile ricavare una stima del m
 \begin{equation}
     I = \frac{K \cdot T^2}{4\pi^2}
 \end{equation} 
-Osserviamo che i valori ricavati per $I$ misurano il momento d'inerzia del sistema bilanciere-masse e pertanto contengono un termine addizionale rappresentato dal momento d'inerzia del bilanciere vuoto $I_a = 0.01 \pm 0.01 \ kg \cdot m^2$, che va sottratto dai valori ottenuti dalla (34), per ottenere il momento d'inerzia delle sole masse. La propagazione dell'incertezza su $I$ è stata valutata con il metodo dei differenziali:
+Osserviamo che i valori ricavati per $I$ misurano il momento d'inerzia del sistema bilanciere-masse e pertanto contengono un termine addizionale rappresentato dal momento d'inerzia del bilanciere vuoto $I_a = 0.01 \pm 0.01 \ kg \cdot m^2$, che va sottratto dai valori ottenuti dalla (34), per ottenere il momento d'inerzia delle sole masse. La propagazione dell'incertezza su $I$ è stata valutata con il metodo dei differenziali (Legge (17)):
 
 \begin{equation}
     \delta I = \frac{T^2 \delta K + 2 KT \delta T}{4\pi^2} + \delta I_a
@@ -199,35 +199,25 @@ Di seguito viene riportato il grafico di $I$ in funzione di $d^2$.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/graph_1.png}
+    \includegraphics[width=0.6\textwidth]{Latex/graph_1.png}
     \caption{Grafico del momento d'inerzia in funzione del quadrato della distanza}
     \label{fig:etichetta}
 \end{figure}
 
 \subsection{Parte II: Verifica Del Teorema di Huygens-Steiner}
-Scopo della presente sezione è verificare che il momento d'inerzia di un disco rispetto ad un asse parallelo ad un asse baricentrico e a distanza $d$ da quest'ultimo dipende linearmente da $d^2$, coerentemente con il teorema di Huygens-Steiner il cui enunciato è riportato di seguito:
-
-\begin{teorema}[Huygens-Steiner]
-Il momento d’inerzia di un corpo rigido rispetto a un asse qualsiasi parallelo a un asse passante per il baricentro è dato dalla somma del momento d’inerzia rispetto all’asse baricentrico G e del prodotto tra la massa e il quadrato della distanza tra i due assi: 
-\[
-I = I_G + m d^2
-\]
-\end{teorema}
-
-Un disco forato è stato montato al supporto con molla, utilizzando preliminarmente il foro centrale. Ruotando il disco di un angolo $\frac{\pi}{2}$ rispetto alla posizione di equilibrio, si procede con la misurazione del periodo corrispondente a 5 oscillazioni, contate azionando il cronometro in corrispondenza del primo passaggio dalla posizione di equilibrio fissata precedentemente. La misura è stata ripetuta per 4 volte, ruotando alternativamente il disco in senso orario e antiorario. La procedura appena descritta è stata ripetuta variando la posizione del disco utilizzando i fori praticati sulla sua superficie. Le distanze utilizzate sono riportate nella seguente tabella:
+Scopo della presente sezione è verificare che il momento d'inerzia di un disco rispetto ad un asse parallelo ad un asse baricentrico e a distanza $d$ da quest'ultimo dipende linearmente da $d^2$, coerentemente con il teorema di Huygens-Steiner. Un disco forato è stato montato al supporto con molla, utilizzando preliminarmente il foro centrale. Ruotando il disco di un angolo $\frac{\pi}{2}$ rispetto alla posizione di equilibrio, si procede con la misurazione del periodo corrispondente a 5 oscillazioni, contate azionando il cronometro in corrispondenza del primo passaggio dalla posizione di equilibrio fissata precedentemente. La misura è stata ripetuta per 4 volte, ruotando alternativamente il disco in senso orario e antiorario. La procedura appena descritta è stata ripetuta variando la posizione del disco utilizzando i fori praticati sulla sua superficie. Le distanze utilizzate sono riportate nella seguente tabella:
 
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|c|}
 		\hline
-		\textbf{d $[m]$} \\
+		\textbf{d $[cm]$} \\
 		\hline
-		$0.0000\pm 0.0005$ \\
-		$0.0205\pm 0.0005$ \\
-		$0.0405\pm 0.0005$ \\
-		$0.0605\pm 0.0005$ \\
-		$0.0805\pm 0.0005$ \\
-            $0.101 \pm 0.001$ \\
+		$2.05\pm 0.05$ \\
+		$4.05\pm 0.05$ \\
+		$6.05\pm 0.05$ \\
+		$8.05\pm 0.05$ \\
+            $10.05 \pm 0.05$ \\
 		\hline
 	\end{tabular}
 	\caption{Distanze dell'asse rispetto all'asse baricentrico ortogonale al disco.}
@@ -242,7 +232,6 @@ Il momento d'inerzia del disco rispetto agli assi corrispondenti alle distanze r
 		\hline
 		\textbf{I $[kg \cdot m^2]$} \\
 		\hline
-		$0.291\pm 0.006$ \\
 		$0.316\pm 0.005$ \\
 		$0.319\pm 0.004$ \\
 		$0.352\pm 0.005$ \\
@@ -250,7 +239,7 @@ Il momento d'inerzia del disco rispetto agli assi corrispondenti alle distanze r
             $0.535 \pm 0.009$ \\
 		\hline
 	\end{tabular}
-	\caption{Momenti d'inerzia}
+	\caption{Momenti d'inerzia. Il momento d'inerzia rispetto al baricentro è $I_0 = 0.291\pm 0.006 (kg \cdot m^2)$}
 	\label{tab:}
 \end{table}
 
@@ -258,7 +247,7 @@ Di seguito, riportiamo i valori del momento d'inerzia $I$ in funzione del quadra
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/graph_2.png}
+    \includegraphics[width=0.6\textwidth]{Latex/graph_2.png}
     \caption{Grafico del momento d'inerzia in funzione del quadrato della distanza}
     \label{fig:etichetta}
 \end{figure}
