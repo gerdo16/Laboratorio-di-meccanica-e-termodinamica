@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  17 APR 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  21 APR 2025 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,7 +907,35 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count349
 \l__pdf_internal_box=\box116
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `tab:' multiply defined.
+
+
+LaTeX Warning: Label `fig:etichetta' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -1028,40 +1056,149 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {C:/Users/ACER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]) (App
 arato sperimentale.tex) [4]
-(Descrizione e analisi dei dati sperimentali.tex) (Conclusioni.tex) [5
+(Descrizione e analisi dei dati sperimentali.tex [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+l.63 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.63 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.63 
+     ] [6
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.108 
+      ] [7
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.171 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.171 
+      ]
+<figures/graph_1.png, id=153, 473.51906pt x 457.71pt>
+File: figures/graph_1.png Graphic file (type png)
+<use figures/graph_1.png>
+Package pdftex.def Info: figures/graph_1.png  used on input line 202.
+(pdftex.def)             Requested size: 281.85587pt x 272.44908pt.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.209 
+       <./figures/graph_1.png>]
+
+! LaTeX Error: Command \theorem already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...abelsep {\bfseries #2.}]}{\end{trivlist}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment teorema undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 \begin{teorema}
+                     [Huygens-Steiner]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{teorema}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \end{teorema}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<figures/graph_2.png, id=163, 462.528pt x 346.896pt>
+File: figures/graph_2.png Graphic file (type png)
+<use figures/graph_2.png>
+Package pdftex.def Info: figures/graph_2.png  used on input line 263.
+(pdftex.def)             Requested size: 281.85587pt x 211.39981pt.
+) [9
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.79 	
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.79 	
+      ] (Conclusioni.tex) [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
 l.83 \end{document}
-                   ] (main.aux)
+                    <./figures/graph_2.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F32917307DCA8113BC083D1D188FFC8A;1649
-(rerunfilecheck)             After:  52F492206F06D3E8E70994C3B10ED09C;1639.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5C3A81218588623C16FCB8D03049EA24;2693.
  ) 
 Here is how much of TeX's memory you used:
- 33944 strings out of 474486
- 775614 string characters out of 5753574
- 1938542 words of memory out of 5000000
- 55594 multiletter control sequences out of 15000+600000
+ 34006 strings out of 474486
+ 776624 string characters out of 5753574
+ 1942542 words of memory out of 5000000
+ 55623 multiletter control sequences out of 15000+600000
  573357 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 84i,9n,93p,928b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
+ 84i,9n,93p,1065b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1
 095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecti1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ecbx1200.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
 ppen/ec/dpi600\ecrm1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/l
 jfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts
@@ -1074,9 +1211,9 @@ cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (5 pages, 187092 bytes).
+Output written on main.pdf (10 pages, 259179 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
