@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  26 APR 2025 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  26 APR 2025 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,7 +1027,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 (Introduzione.tex) (Richiami teorici.tex [1
 
 {C:/Users/ACER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./figures/prismateoria.png, id=55, 741.972pt x 317.38576pt>
+<./figures/prismateoria.png, id=63, 741.972pt x 317.38576pt>
 File: ./figures/prismateoria.png Graphic file (type png)
 <use ./figures/prismateoria.png>
 Package pdftex.def Info: ./figures/prismateoria.png  used on input line 27.
@@ -1039,30 +1039,65 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.55 \end{equation}
                     <./figures/prismateoria.png>] [3])
-(Apparato sperimentale.tex) (Descrizione e analisi dei dati sperimentali.tex)
-(Conclusioni.tex) [4] (main.aux)
+(Apparato sperimentale.tex
+<./figures/prisma.jpg, id=90, 1204.5pt x 1606.0pt>
+File: ./figures/prisma.jpg Graphic file (type jpg)
+<use ./figures/prisma.jpg>
+Package pdftex.def Info: ./figures/prisma.jpg  used on input line 26.
+(pdftex.def)             Requested size: 258.36668pt x 344.4746pt.
+ [4]
+<./figures/apparato.jpg, id=106, 1204.5pt x 1606.0pt>
+File: ./figures/apparato.jpg Graphic file (type jpg)
+<use ./figures/apparato.jpg>
+Package pdftex.def Info: ./figures/apparato.jpg  used on input line 32.
+(pdftex.def)             Requested size: 258.36668pt x 344.4746pt.
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.35 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.35 
+      <./figures/prisma.jpg>]
+<./figures/nastro.jpg, id=113, 1606.0pt x 1204.5pt>
+File: ./figures/nastro.jpg Graphic file (type jpg)
+<use ./figures/nastro.jpg>
+Package pdftex.def Info: ./figures/nastro.jpg  used on input line 38.
+(pdftex.def)             Requested size: 258.36668pt x 193.77155pt.
+) (Descrizione e analisi dei dati sperimentali.tex) (Conclusioni.tex) [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \end{document}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \end{document}
+                    <./figures/apparato.jpg> <./figures/nastro.jpg>] [7]
+(main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C26298C40AFB5E54588DC55BC956F736;1118
-(rerunfilecheck)             After:  373824A960C0F07C9D787E3D50AF0ACD;1497.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 373824A960C0F07C9D787E3D50AF0ACD;1497.
  ) 
 Here is how much of TeX's memory you used:
- 33953 strings out of 474486
- 775990 string characters out of 5753574
+ 34006 strings out of 474486
+ 777188 string characters out of 5753574
  1939542 words of memory out of 5000000
- 55604 multiletter control sequences out of 15000+600000
+ 55650 multiletter control sequences out of 15000+600000
  572668 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 84i,6n,93p,726b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,93p,726b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1095.pk> <C:\Users\ACER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
@@ -1080,9 +1115,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb>
-Output written on main.pdf (4 pages, 326131 bytes).
+Output written on main.pdf (7 pages, 705213 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
