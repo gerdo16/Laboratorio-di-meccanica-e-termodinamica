@@ -36,7 +36,7 @@ Applicando la \textbf{Legge di Snell} alla prima rifrazione:
 \begin{equation}
 	n_{aria}\sin(\theta_i)=n_{vetro}\sin(\theta_r)
 \end{equation}
-Poiché $n_aria \approx 1$, si può semplificare:
+Poiché $n_{aria} \approx 1$, si può semplificare:
 \begin{equation}
 	\sin(\theta_i)=n\sin(\theta_r)
 \end{equation}
@@ -59,27 +59,6 @@ e si può ricavare l'indice di rifrazione $n$ direttamente con una formula sempl
 \end{equation}
 e, tenendo conto dell'uguaglianza $\theta_i=\theta_i'$ e della Legge (1), otteniamo la Legge (2).
 
-
-\subsection{Richiami Statistici}
-Il metodo dei minimi quadrati è una tecnica che permette di trovare una funzione, rappresentata da una curva di regressione, che si avvicini il più possibile ad un insieme di dati (tipicamente punti del piano). In particolare, la funzione trovata deve essere quella che minimizza la somma dei quadrati delle distanze tra i dati osservati e quelli della curva che rappresenta la funzione stessa. Siano $b$ il coefficiente angolare e $a$ l'intercetta della retta di regressione:
-\begin{equation}
-	b=\frac{\displaystyle\sum_{i=1}^{N}[(x_i-\overline{x})(y_i-\overline{y})]}{\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2}
-\end{equation}
-\begin{equation}
-	a=\overline{y}-b\overline{x}
-\end{equation}
-Con $\overline{x}=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}$ e $\overline{y}=\frac{\displaystyle\sum_{i=1}^{N}y_i}{N}$
-mentre le incertezze:
-\begin{equation}
-	\Delta b=3\sigma_b
-\end{equation}
-\begin{equation}
-	\Delta a=3\sigma_a
-\end{equation}
-Con $$\sigma_b=\sigma_y\sqrt{\frac{N}{\Delta}}$$
-$$\sigma_y=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(y_i-bx_i-a)^2}{N-2}}$$
-$$\sigma_a=\sigma_y\sqrt{\frac{\displaystyle\sum_{i=1}^{N}x_i^2}{\Delta}}$$
-$$\Delta=N\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2$$
 
 \subsection{Richiami di teoria della misura}
 Sia $g$ una grandezza fisica dipendente da $N$ grandezze fisiche $x_1,...,x_N$ tale che
