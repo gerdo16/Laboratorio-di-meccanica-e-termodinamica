@@ -1,0 +1,61 @@
+\subsection{Calore Specifico}
+Consideriamo un sistema termodinamico costituito da un corpo rigido. Ricordiamo che un corpo può dirsi rigido se per i nostri scopi, volume e forma sono praticamente immutabili. In particolare, si può considerare trascurabile l'effetto della dilatazione termica. In questo caso, l'unico parametro termodinamico significativo per caratterizzare lo stato del sistema è la sola temperatura. Pertanto, per l'energia interna si avrà:
+\begin{equation}
+    U = U(t)
+\end{equation}
+Ricordando l'espressione del primo principio della termodinamica:
+\begin{equation}
+    Q -L = \Delta U 
+\end{equation}
+nel caso in esame, per una qualunque trasformazione termodinamica che porti il sistema da una temperatura $t_A$ ad una generica $t$, si ottiene:
+\begin{equation}
+    Q - L = U(t) - U(t_A)
+\end{equation}
+Consideriamo ora il caso in cui il sistema scambi calore $Q$ senza scambiare lavoro meccanico (che in questo caso sarebbe per attrito), allora $L = 0$ e la (3) si riduce a:
+\begin{equation}
+    Q = U(t) - U(t_A)
+\end{equation}
+La (4) quantifica la quantità di calore necessaria per portare il sistema dalla temperatura $t_A$ alla temperatura $t$. Generalmente, come dimostrano risultati sperimentali, tale quantità è proporzionale alla massa $m$ del sistema, come del resto suggerisce l'esperienza comune. Pertanto, derivando rispetto alla temperatua e dividendo per la massa $m$ si ottiene:
+\begin{equation}
+    c = \frac{1}{m}\frac{dQ}{dt} = \frac{1}{m}\frac{dU}{dt}
+\end{equation}
+La quantità $c = \frac{1}{m}\frac{dQ}{dt}$ viene detta \textbf{calore specifio} del corpo. Essa raprpesenta la quantità di calore che deve essere fornita all'unità di massa che si trova ad una certa temperatura $T$ per innalzarla di un grado. Si misura in $\frac{cal}{g^\circ \mathrm{C}}$ oppure in $\frac{Joule}{kg^\circ \mathrm{C}}$. In altri termini, $c$ descrive quanto il sistema è resistente a una variazione di temperatura quando assorbe o cede energia termica e si tratta di una proprietà caratteristica per ogni materiale. La quantità $mc$ viene detta \textbf{capacità termica} del corpo ed indica la quantità di calore che è necessario somministrare a tutto il corpo per causare un aumento di temperatura pari ad un grado.
+
+\subsection{Calorimetro delle Mescolanze}
+Il calorimetro delle mescolanze è uno strumento utilizzato per studiare gli scambi di calore tra corpi o sostanze posti a temperature diverse, senza che avvengano reazioni chimiche o cambiamenti di stato. È costituito da un contenitore isolante, spesso realizzato in materiali a bassa conducibilità termica, dotato di coperchio, foro per il termometro e agitatore. L'isolamento termico è fondamentale per ridurre al minimo le dispersioni di calore verso l'ambiente esterno e rendere l'apparato il più simile possibile a un sistema termicamente chiuso. Alla base del funzionamento del calorimetro delle mescolanze vi è il principio di conservazione dell'energia: in assenza di scambi termici con l'ambiente, il sistema $C+S$ composto dal calorimetro e dalle sostanze in esso contenute può considerarsi un sistema isolato e pertanto gli scambi energetici possono avvenire solo tra le sue parti. Il primo principio della termodinamica ci assicura dunque che, detti $Q_{C}$ e $Q_S$ rispettivamente il calore scambiato dal calorimetro con le sostanze e quello scambiato dalle sostanze con il calorimetro, si ha:
+\begin{equation}
+    Q_{C} + Q_{S} = 0
+\end{equation}
+Per tener conto dell'effetto termico del calorimetro stesso, si introduce il concetto di equivalente in acqua del calorimetro: una massa fittizia di acqua che assorbe la stessa quantità di calore che sarebbe assorbita dal calorimetro reale.
+
+\subsubsection{Fase 1}
+Versando una quantità di acqua di massa nota $m_1$ nel calorimetro, il sistema calorimetro-massa $m_1$ raggiunge presto una temperatura di equilibrio $T_e$. Consideriamo una seconda massa $m_2$ di acqua, questa viene portata alla temperatura di ebollizione $T_2$ e versata rapidamente nel calorimetro. In questo modo ci si assicura che non ci siano scambi energetici significativi con l'ambiente esterno. Dopo un tempo sufficiente, il sistema composto dal calorimetro e dalle masse $m_1$ ed $m_2$ raggiungerà una temperatura di equilibrio $T_e$. Per quanto detto (in particolare dalla (6)), segue:
+\begin{equation}
+    \Delta Q_C + \Delta Q_{m_1} + \Delta Q_{m_2} = 0
+\end{equation}
+dove $\Delta Q_C$, $\Delta Q_{m_1}$ e $\Delta Q_{m_2}$ sono rispettivamente il calore scambiato dal calorimetro, da $m_1$ e da $m_2$. Esplicitando questi termini, utilizzando la (5), si ottiene:
+\begin{equation}
+    c_am_2(T_2 - T_1) = c(T_e - T_1) + c_am_1(T_e - T_1)
+\end{equation}
+dove $c_a$ indica il calore spefico dell'acqua (che si assume costante e uguale al valore a temperatura ambiente) e c è la capacità termica del calorimetro. Utilizzando il concetto di equivalente in acqua del calorimetro $m_e$, possiamo riscrivere:
+\begin{equation}
+    c = c_am_a
+\end{equation}
+La (8) pertanto diventa:
+\begin{equation}
+    c_am_2(T_2 - T_1) = c_am_e(T_e - T_1) + c_am_1(T_e - T_1)
+\end{equation}
+da cui si ricava facilmente:
+\begin{equation}
+    m_e = \frac{m_2(T_2 - T_e)}{T_e - T_1}-m_1
+\end{equation}
+
+\subsubsection{Fase 2}
+Una volta ricavato il valore di $m_e$ è possibile ricavare il calore specifico della sostanza incognita. A partire dal sistema calorimetro-massa $m_1$ che si trova alla temperatura $T_1$, in un contenitore separato, si porta ad ebollizione $T_2$ una certa quantità di acqua in cui viene immersa il metallo di massa nota $m_x$ e si attende fino al raggiungimento di uno stato di equilibrio, in cui la sostanza avrà raggiunto la temperatura $T_2$. A questo punto, immergendo rapidamente il metallo nel calorimetro, questo raggiungerà una temperatura di equilibrio con il sistema calorimetro-massa $m_1$ e ancora una volta si ha:
+\begin{equation}
+    c_xm_x(T_2 - T_e) = c_am_e(T_e - T_1) + c_am_1(T_e - T_1)
+\end{equation}
+da cui possiamo ricavare facilmente il calore spefico $c_x$ del metallo:
+\begin{equation}
+    c_x = \frac{c_a(m_1 + m_e)(T_e - T_1)}{m_x(T_2 - T_e)}
+\end{equation}
