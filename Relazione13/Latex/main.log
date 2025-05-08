@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  6 MAY 2025 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.20)  8 MAY 2025 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,7 +1029,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {C:/Users/gerar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]) (Ap
 parato sperimentale.tex
-<./figures/calorimetro.jpg, id=94, 1204.5pt x 903.375pt>
+<./figures/calorimetro.jpg, id=102, 1204.5pt x 903.375pt>
 File: ./figures/calorimetro.jpg Graphic file (type jpg)
 <use ./figures/calorimetro.jpg>
 Package pdftex.def Info: ./figures/calorimetro.jpg  used on input line 31.
@@ -1041,12 +1041,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
                                                   \__shipout_drop_firstpage_...
 l.34 
      ]
-<./figures/becher.jpg, id=104, 1204.5pt x 903.375pt>
+<./figures/becher.jpg, id=112, 1204.5pt x 903.375pt>
 File: ./figures/becher.jpg Graphic file (type jpg)
 <use ./figures/becher.jpg>
 Package pdftex.def Info: ./figures/becher.jpg  used on input line 37.
 (pdftex.def)             Requested size: 258.36668pt x 193.76695pt.
-<./figures/materiale.jpg, id=105, 1204.5pt x 903.375pt>
+<./figures/materiale.jpg, id=113, 1204.5pt x 903.375pt>
 File: ./figures/materiale.jpg Graphic file (type jpg)
 <use ./figures/materiale.jpg>
 Package pdftex.def Info: ./figures/materiale.jpg  used on input line 43.
@@ -1064,25 +1064,26 @@ s been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.76 	
        <./figures/calorimetro.jpg> <./figures/becher.jpg>]
-(Descrizione e analisi dei dati sperimentali.tex) (Conclusioni.tex) [6
+(Descrizione e analisi dei dati sperimentali.tex [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.83 \end{document}
-                    <./figures/materiale.jpg>] (main.aux)
+l.37 \end{equation}
+                    <./figures/materiale.jpg>]) (Conclusioni.tex) [7] (main.aux
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4E5076F28A3EF83AD5E9AB130BC12B8B;1519.
+(rerunfilecheck)             Checksum: CDBC0C94DA8E127713D79906D85D91C4;1701.
  ) 
 Here is how much of TeX's memory you used:
- 33988 strings out of 474486
- 777031 string characters out of 5753569
+ 34007 strings out of 474486
+ 777279 string characters out of 5753569
  1937542 words of memory out of 5000000
- 55635 multiletter control sequences out of 15000+600000
+ 55637 multiletter control sequences out of 15000+600000
  572668 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,10n,93p,1173b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1102,9 +1103,9 @@ cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 les/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (6 pages, 1924727 bytes).
+Output written on main.pdf (7 pages, 1936497 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
