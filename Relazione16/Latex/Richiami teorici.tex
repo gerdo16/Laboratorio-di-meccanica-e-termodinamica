@@ -1,0 +1,113 @@
+\subsection{Unità di misura dell'energia}
+L'energia può essere espressa in diverse unità di misura, a seconda del tipo di fenomeno che si sta descrivendo.
+\subsubsection{Joule (J)}
+Il joule è l'unità di misura dell'energia nel Sistema Internazionale (SI). È una misura generale dell'energia, utilizzata per esprimere tanto l'energia meccanica quanto quella elettrica o termica. $1\ J$ è definito come il lavoro compiuto da una forza di $1\ N$ che sposta un oggetto di $1\ m$ nella direzione della forza:
+
+\begin{equation}
+	1\ J=1\ N\cdot 1\ m
+\end{equation}
+
+In ambito elettrico, l'energia erogata da una corrente costante di $1\ A$ che attraversa un conduttore con una differenza di potenziale di $1\ V$ per $1\ s$ è anch'essa pari a $1\ J$:
+
+\begin{equation}
+	1\ J=1\ V\cdot 1\ A\cdot 1\ s
+\end{equation}
+
+\subsubsection{Caloria (cal)}
+La caloria è un'unità di misura dell'energia di tipo termico, storicamente usata in termodinamica e nutrizione. È definita come la quantità di calore necessaria per aumentare la temperatura di $1\ g$ di acqua distillata da $14.5^{\circ}C$ a $15.5^{\circ}C$.
+
+
+\subsection{Effetto Joule}
+Quando una corrente elettrica attraversa un materiale conduttore, gli elettroni liberi che costituiscono la corrente si muovono nel reticolo cristallino del metallo. Durante il loro moto, urtano contro gli atomi del reticolo, cedendo parte della loro energia cinetica che si manifesta come aumento dell'agitazione termica (cioè aumento della temperatura del materiale). La potenza dissipata sotto forma di calore è data da:
+
+\begin{equation}
+	P = VI
+\end{equation}
+In cui
+
+\begin{itemize}
+	\item \textbf{P} è la potenza ($W$)
+	\item \textbf{V} è la differenza di potenziale ai capi del conduttore ($V$)
+	\item \textbf{I} è la corrente elettrica che attraversa il conduttore ($A$)
+\end{itemize}
+Se tensione e corrente sono costanti nel tempo, l'energia dissipata in un intervallo $\Delta t$ è:
+\begin{equation}
+	E = VI\Delta t
+\end{equation}
+
+
+
+
+
+\subsection{Calore Specifico}
+Consideriamo un sistema termodinamico costituito da un corpo rigido. Ricordiamo che un corpo può dirsi rigido se, per i nostri scopi, volume e forma sono praticamente immutabili. In particolare, si può considerare trascurabile l'effetto della dilatazione termica. In questo caso, l'unico parametro termodinamico significativo per caratterizzare lo stato del sistema è la sola temperatura. Pertanto, per l'energia interna si avrà:
+\begin{equation}
+	U = U(t)
+\end{equation}
+Ricordando l'espressione del primo principio della termodinamica:
+\begin{equation}
+	Q -L = \Delta U 
+\end{equation}
+nel caso in esame, per una qualunque trasformazione termodinamica che porti il sistema da una temperatura $t_A$ ad una generica $t$, si ottiene:
+\begin{equation}
+	Q - L = U(t) - U(t_A)
+\end{equation}
+Consideriamo ora il caso in cui il sistema scambi calore $Q$ senza scambiare lavoro meccanico (che in questo caso sarebbe per attrito), allora $L = 0$ e la (9) si riduce a:
+\begin{equation}
+	Q = U(t) - U(t_A)
+\end{equation}
+La (10) quantifica la quantità di calore necessaria per portare il sistema dalla temperatura $t_A$ alla temperatura $t$. Generalmente, come dimostrano risultati sperimentali, tale quantità è proporzionale alla massa $m$ del sistema. Pertanto, derivando rispetto alla temperatura e dividendo per la massa $m$ si ottiene:
+\begin{equation}
+	c = \frac{1}{m}\frac{dQ}{dt} = \frac{1}{m}\frac{dU}{dt}
+\end{equation}
+La quantità $c = \frac{1}{m}\frac{dQ}{dt}$ viene detta \textbf{calore specifico} del corpo. Essa rappresenta la quantità di calore che deve essere fornita all'unità di massa che si trova ad una certa temperatura $T$ per innalzarla di un grado. Si misura in $\frac{cal}{g \mathrm{K}}$ oppure in $\frac{Joule}{kg \mathrm{K}}$. In altri termini, $c$ descrive quanto il sistema è resistente a una variazione di temperatura quando assorbe o cede energia termica e si tratta di una proprietà caratteristica per ogni materiale. La quantità $mc$ viene detta \textbf{capacità termica} del corpo ed indica la quantità di calore che è necessario somministrare a tutto il corpo per causare un aumento di temperatura pari ad un grado.
+
+\subsection{Calorimetro delle Mescolanze}
+Il calorimetro delle mescolanze è uno strumento utilizzato per studiare gli scambi di calore tra corpi o sostanze posti a temperature diverse, senza che avvengano reazioni chimiche o cambiamenti di stato. È costituito da un contenitore isolante, spesso realizzato in materiali a bassa conducibilità termica, dotato di coperchio, foro per il termometro e agitatore. L'isolamento termico è fondamentale per ridurre al minimo le dispersioni di calore verso l'ambiente esterno e rendere l'apparato il più simile possibile a un sistema termicamente chiuso. Alla base del funzionamento del calorimetro delle mescolanze vi è il principio di conservazione dell'energia: in assenza di scambi termici con l'ambiente, il sistema $C+S$ composto dal calorimetro e dalle sostanze in esso contenute può considerarsi un sistema isolato e pertanto gli scambi energetici possono avvenire solo tra le sue parti. Il primo principio della termodinamica ci assicura dunque che, detti $Q_{C}$ e $Q_S$ rispettivamente il calore scambiato dal calorimetro con le sostanze e quello scambiato dalle sostanze con il calorimetro, si ha:
+\begin{equation}
+	Q_{C} + Q_{S} = 0
+\end{equation}
+Per tener conto dell'effetto termico del calorimetro stesso, si introduce il concetto di equivalente in acqua del calorimetro: una massa fittizia di acqua che assorbe la stessa quantità di calore che sarebbe assorbita dal calorimetro reale.
+
+
+
+\subsection{Richiami di teoria della misura}
+Sia $g$ una grandezza fisica dipendente da $N$ grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=f(x_1,...,x_N)
+\end{equation}
+con
+\begin{equation}
+	x_1 = x_{1_0}\pm \Delta x_1
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N = x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g=\displaystyle\sum_{i=1}^{N}\left|\frac{\partial g}{\partial x_i}\right|_{\vec{x}=\vec{x_0}}\Delta x_i
+\end{equation}
+con
+\begin{equation}
+	\vec{x}=(x_1,...,x_N)
+\end{equation}
+\begin{equation}
+	\vec{x_0}=(x_{1_0},...,x_{N_0})
+\end{equation}
+Sia g una grandezza fisica pari alla somma, o alla differenza, di N grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=x_1\pm...\pm x_N
+\end{equation}
+con
+\begin{equation}
+	x_1=x_{1_0}\pm \Delta x_N
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N=x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g= \Delta x_1+...+\Delta x_N
+\end{equation}
