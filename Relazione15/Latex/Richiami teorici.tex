@@ -15,3 +15,68 @@ Questa relazione permette di calcolare la distanza focale conoscendo le distanze
 quando le dimensioni della lente sono piccole rispetto alla distanza degli oggetti in gioco, e gli angoli dei raggi luminosi rispetto all'asse ottico sono piccoli 
 (approssimazione parassiale). 
 Nel laboratorio, la distanza focale può essere determinata sperimentalmente posizionando un oggetto luminoso e spostando uno schermo fino a ottenere un'immagine nitida.
+
+
+\subsection{Richiami Statistici}
+Il metodo dei minimi quadrati è una tecnica che permette di trovare una funzione, rappresentata da una curva di regressione, che si avvicini il più possibile ad un insieme di dati (tipicamente punti del piano). In particolare, la funzione trovata deve essere quella che minimizza la somma dei quadrati delle distanze tra i dati osservati e quelli della curva che rappresenta la funzione stessa. Siano $b$ il coefficiente angolare e $a$ l'intercetta della retta di regressione:
+\begin{equation}
+	b=\frac{\displaystyle\sum_{i=1}^{N}[(x_i-\overline{x})(y_i-\overline{y})]}{\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2}
+\end{equation}
+\begin{equation}
+	a=\overline{y}-b\overline{x}
+\end{equation}
+Con $\overline{x}=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}$ e $\overline{y}=\frac{\displaystyle\sum_{i=1}^{N}y_i}{N}$
+mentre le incertezze:
+\begin{equation}
+	\Delta b=3\sigma_b
+\end{equation}
+\begin{equation}
+	\Delta a=3\sigma_a
+\end{equation}
+Con $$\sigma_b=\sigma_y\sqrt{\frac{N}{\Delta}}$$
+$$\sigma_y=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(y_i-bx_i-a)^2}{N-2}}$$
+$$\sigma_a=\sigma_y\sqrt{\frac{\displaystyle\sum_{i=1}^{N}x_i^2}{\Delta}}$$
+$$\Delta=N\displaystyle\sum_{i=1}^{N}(x_i-\overline{x})^2$$
+
+
+
+\subsection{Richiami di teoria della misura}
+Sia $g$ una grandezza fisica dipendente da $N$ grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=f(x_1,...,x_N)
+\end{equation}
+con
+\begin{equation}
+	x_1 = x_{1_0}\pm \Delta x_1
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N = x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g=\displaystyle\sum_{i=1}^{N}\left|\frac{\partial g}{\partial x_i}\right|_{\vec{x}=\vec{x_0}}\Delta x_i
+\end{equation}
+con
+\begin{equation}
+	\vec{x}=(x_1,...,x_N)
+\end{equation}
+\begin{equation}
+	\vec{x_0}=(x_{1_0},...,x_{N_0})
+\end{equation}
+Sia g una grandezza fisica pari alla somma, o alla differenza, di N grandezze fisiche $x_1,...,x_N$ tale che
+\begin{equation}
+	g=x_1\pm...\pm x_N
+\end{equation}
+con
+\begin{equation}
+	x_1=x_{1_0}\pm \Delta x_N
+\end{equation}
+$$ ... $$
+\begin{equation}
+	x_N=x_{N_0}\pm \Delta x_N
+\end{equation}
+La formula di propagazione dell'errore massimo è:
+\begin{equation}
+	\Delta g= \Delta x_1+...+\Delta x_N
+\end{equation}
