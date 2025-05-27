@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  21 MAY 2025 17:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.2)  27 MAY 2025 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,28 +1027,34 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 (Introduzione.tex) (Richiami teorici.tex [1
 
 {C:/Users/ACER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]) (Des
-crizione dell'esperienza.tex)
-(Apparato sperimentale.tex) (Descrizione e analisi dei dati sperimentali.tex)
-(Conclusioni.tex) [4] (main.aux)
+crizione dell'esperienza.tex
+<./figures/Circuito.png, id=112, 564.9105pt x 349.90726pt>
+File: ./figures/Circuito.png Graphic file (type png)
+<use ./figures/Circuito.png>
+Package pdftex.def Info: ./figures/Circuito.png  used on input line 9.
+(pdftex.def)             Requested size: 328.82707pt x 203.67245pt.
+)
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 
+      <./figures/Circuito.png>] (Apparato sperimentale.tex)
+(Descrizione e analisi dei dati sperimentali.tex) (Conclusioni.tex) [5]
+(main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A0DC300E9D7B52F36859AD4857CF501B;1917
-(rerunfilecheck)             After:  28108C01A0F5304BD27A0BA5CC3CC13B;2099.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6143B285EC4DA2A2273C9EBA583A3B97;2281.
  ) 
 Here is how much of TeX's memory you used:
- 33946 strings out of 474486
- 775884 string characters out of 5753574
+ 33969 strings out of 474486
+ 776367 string characters out of 5753574
  1938542 words of memory out of 5000000
- 55594 multiletter control sequences out of 15000+600000
+ 55613 multiletter control sequences out of 15000+600000
  572668 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,6n,93p,1170b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1068,9 +1074,9 @@ ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb>
-Output written on main.pdf (4 pages, 177755 bytes).
+Output written on main.pdf (5 pages, 209074 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
